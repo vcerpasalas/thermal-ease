@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rubik:wght@600&family=Skranji:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 1200px;
+  background: #3d3a34;
+  font-family: "Rubik", sans-serif;
+}
+
+.scene {
+  position: absolute;
+  width: 100%;
+  transform: translateY(var(--translateY));
+  will-change: transform;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  top: 50%;
+}
+
+.panel {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 0 auto;
+  width: 350px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #60503b;
+}
+
+.title span {
+  color: #3f7ba1;
+}
+
+.subtitle {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 10px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.panel-button {
+  background-color: #60503b;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
