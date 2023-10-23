@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="register.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="panel">
+        <form
+          action="/process_register.php"
+          method="POST"
+          enctype="multipart/form-data"
+        >
+          <div class="form-group">
+            <label for="materialName">Material Name</label>
+            <input type="text" id="materialName" name="materialName" required />
+          </div>
+          <div class="form-group">
+            <label for="description">Description</label>
+            <textarea
+              id="description"
+              name="description"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <label for="thermalConductivity"
+              >Thermal Conductivity (W/m·K)</label
+            >
+            <input
+              type="number"
+              step="0.01"
+              id="thermalConductivity"
+              name="thermalConductivity"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="materialImage"
+              >Upload Image <br /><span>(max 5MB, 800x600 pixels)</span></label
+            >
+            <input
+              type="file"
+              id="materialImage"
+              name="materialImage"
+              accept=".jpg, .png"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <button type="button" onclick="submitForm()">Submit</button>
+            <button type="button" id="return-button">Return</button>
+          </div>
+        </form>
+        <!-- Manage images uploaded -->
+        <div id="file-name"></div>
+      </div>
+    </div>
+    <script src="register.js"></script>
+    <script src="calculate.js"></script>
+  </body>
+</html>

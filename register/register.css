@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rubik:wght@600&family=Skranji:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #3d3a34;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+
+.panel {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 0 auto;
+  width: 350px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+/* Register Form */
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.form-group textarea {
+  height: 100px; 
+}
+
+.form-group button {
+  background-color: #60503b;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Style for Submit Image button */
+
+#materialName,
+#description,
+#thermalConductivity {
+ width: 94%;
+ margin-top: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group button,
+.form-group label[for="materialImage"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+.form-group input[type="file"] {
+  display: none;
+}
+
+.form-group label[for="materialImage"] {
+  background-color: #beb09e;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-group label[for="materialImage"] span {
+  font-weight: normal; 
+}
+
+.form-group input[type="file"] + label::after {
+  content: "Upload Image";
+}
+
+.form-group input[type="file"]:focus + label,
+.form-group input[type="file"]:hover + label {
+  background-color: #403329;
+}
+
+.form-group input[type="file"] + label:active {
+  background-color: #30271F;
+}
+
+#file-name {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  display: none; 
+}
+
+/* Return button */
+#return-button {
+  background-color: #fff;
+  color: #60503b;
+  border-color: #60503b;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  margin-top: 10px; 
+}
+
+#return-button:hover {
+  background-color: #60503b;
+  color: #fff;
+}

@@ -1,0 +1,64 @@
+{
+  "materials": [
+    {
+      "name": "High-Density Foam Insulation Board",
+      "description": "Type of thermal insulation material known for its excellent insulating properties. It is often used in construction for its high R-value and energy-saving features.",
+      "thermal_conductivity": 0.025,
+      "image_file": "high_density_foam.jpg"
+    },
+    {
+      "name": "Fiberglass Batt Insulation",
+      "description": "Popular choice for its affordability and ease of installation. It is used in walls, attics, and crawl spaces for thermal insulation.",
+      "thermal_conductivity": 0.032,
+      "image_file": "fiberglass_batt.jpg"
+    },
+    {
+      "name": "Polystyrene Foam Sheets",
+      "description": "Lightweight and durable. They are commonly used in construction as insulation materials for their moisture resistance and thermal insulation properties.",
+      "thermal_conductivity": 0.035,
+      "image_file": "polystyrene_foam.jpg"
+    },
+    {
+      "name": "Cementitious Fireproofing",
+      "description": "Fire-resistant material applied to structural components. It offers protection against high temperatures and is used in industrial and commercial buildings.",
+      "thermal_conductivity": 0.06,
+      "image_file": "cementitious_fireproofing.jpg"
+    },
+    {
+      "name": "Reflective Foil Insulation",
+      "description": "Consists of layers of aluminum foil and plastic materials. It reflects heat and is used to provide thermal insulation in attics and walls.",
+      "thermal_conductivity": 0.03,
+      "image_file": "reflective_foil.jpg"
+    },
+    {
+      "name": "Cellulose Insulation",
+      "description": "Made from recycled paper products. It is an eco-friendly choice and provides effective thermal insulation in homes and buildings.",
+      "thermal_conductivity": 0.04,
+      "image_file": "cellulose_insulation.jpg"
+    },
+    {
+      "name": "Aerogel Insulation",
+      "description": "Highly efficient insulating material known for its low thermal conductivity. It is used in aerospace and extreme temperature applications.",
+      "thermal_conductivity": 0.015,
+      "image_file": "aerogel_insulation.jpg"
+    },
+    {
+      "name": "Spray Foam Insulation",
+      "description": "Versatile material that expands upon application. It creates a tight seal and is used for both thermal insulation and air sealing.",
+      "thermal_conductivity": 0.028,
+      "image_file": "spray_foam.jpg"
+    },
+    {
+      "name": "Blown-In Fiberglass Insulation",
+      "description": "Made of tiny glass fibers and is applied by blowing or spraying. It is used to insulate attics and walls for thermal efficiency.",
+      "thermal_conductivity": 0.031,
+      "image_file": "blown_in_fiberglass.jpg"
+    },
+    {
+      "name": "Polyisocyanurate Board Insulation",
+      "description": "Type of rigid foam insulation. It is known for its high R-value and is used in roofs, walls, and foundations for thermal insulation.",
+      "thermal_conductivity": 0.024,
+      "image_file": "polyisocyanurate_insulation.jpg"
+    }
+  ]
+}
